@@ -1,0 +1,235 @@
+.top-footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(251, 251, 251, 1);
+    padding-top: 24px;
+    padding-right: 25px;
+    padding-bottom: 24px;
+    padding-left: 25px;
+}
+
+.card-footer {
+    width: 234px;
+    position: relative;
+    padding-right: 30px;
+}
+
+.card-footer:nth-child(2) {
+    width: 234px;
+    margin-left: 30px;
+}
+
+.card-footer:nth-child(3) {
+    width: 204px;
+    margin-left: 30px;
+    margin-right: 62px;
+    padding-right: 0px;
+}
+
+.card-footer:not(:nth-child(3))::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(70, 163, 88, 0.1);
+}
+
+
+.input-footer {
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+}
+
+.input-footer .name-footer {
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.input-container input {
+    flex: 1;
+    height: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding-left: 12px;
+    border-radius: 6px 0 0 6px;
+    font-family: Cera Pro;
+}
+
+.join {
+    width: 85px;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    background: rgba(70, 163, 88, 1);
+    font-family: Cera Pro;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.join:hover {
+    background-color: rgb(8, 187, 44);
+}
+
+.image-cactus-1 {
+    height: 96px;
+    width: 77px;
+    background-image: url('../images/cactus-1.png');
+}
+
+.image-cactus-2 {
+    height: 93px;
+    width: 83px;
+    background-image: url('../images/cactus-2.png');
+}
+
+.image-cactus-3 {
+    height: 92px;
+    width: 90px;
+    background-image: url('../images/cactus-3.png');
+}
+
+.name-footer {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.text-footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+}
+
+.text-footer-description {
+    font-size: 13px;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    padding: 25px 22px 19px 23px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+
+.contacts a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.down-footer {
+    display: flex;
+    background: rgba(251, 251, 251, 1);
+    padding-top: 33px;
+    padding-right: 155px;
+    padding-bottom: 27px;
+    padding-left: 25px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+
+.info:nth-child(1) {
+    margin-right: 164px;
+}
+
+.info:nth-child(2) {
+    margin-right: 129px;
+}
+
+.info:nth-child(3) {
+    margin-right: 173px;
+}
+
+
+.name-info {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.social-icon-link {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon a {
+    text-align: center;
+    padding-top: 7px;
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon a:hover {
+    background-color: rgba(70, 163, 88, 0.1); 
+    transform: scale(1.1); 
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.payment-icon {
+    margin-top: 33px;
+}
+
+.payment {
+    margin-bottom: 13px;
+}
+
+.text-info {
+    padding-top: 8px;
+    padding-right: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.text-info li a:hover {
+    color: green;
+}
+
+.text-info a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-bottom: 22px;
+}
